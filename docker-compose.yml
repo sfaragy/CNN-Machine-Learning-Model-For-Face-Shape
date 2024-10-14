@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  # Service for training machine learning the model
+  training:
+    build: .
+    command: python train.py
+    volumes:
+      - .:/app
+    container_name: CNN-Machine-Learning-Model-For-Face-Shape-Classification-training
+
+  # Service for running the Flask app (API) for Face Detection
+  app:
+    build: .
+    command: python app.py
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    container_name: CNN-Machine-Learning-Model-For-Face-Shape-Classification-app
