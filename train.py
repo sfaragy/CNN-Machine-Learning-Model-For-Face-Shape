@@ -5,7 +5,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 
 dataset_path = 'dataset/training_data_set'
-model_save_path = 'models/face_shape_classifier.h5'
+model_save_path = 'models/face_shape_classifier_by_cnn.h5'
 
 batch_size = 32
 epochs = 10

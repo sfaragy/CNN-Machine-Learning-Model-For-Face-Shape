@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 
 app = Flask(__name__)
 
-model = load_model('models/face_shape_classifier.h5')
+model = load_model('models/face_shape_classifier_by_cnn.h5')
 
 def classify_face_shape(image):
     image_resized = cv2.resize(image, (128, 128))
