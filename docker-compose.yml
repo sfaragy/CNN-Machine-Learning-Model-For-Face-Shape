@@ -11,7 +11,7 @@ services:
 
   # Service for running the Flask app (API) for Face Detection
   app:
-    build: .
+    image: face-shape-classification_training
     command: python app.py
     ports:
       - "5000:5000"

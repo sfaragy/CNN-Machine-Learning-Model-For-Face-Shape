@@ -1,5 +1,7 @@
 import os
 import tensorflow as tf
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
