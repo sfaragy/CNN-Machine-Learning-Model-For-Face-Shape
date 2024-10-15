@@ -6,7 +6,11 @@
 </div>
 
 
-Step 1: copy the repository and download the dataset from following Google Drive:
-<a href="https://drive.google.com/file/d/18PunzzS9meIqJ1ck3is7HAt-SZBfk_qQ/view?usp=sharing" target="_blank"> Download Dataset</a>
+Step 1: copy the repository and download the dataset from following Link:
+<a href="https://www.dropbox.com/scl/fi/xz7zy6xcixj5uxeacd6td/dataset.zip?rlkey=zf8y7om1q3u186o4da79ydurz&st=zmytsk1o&dl=0" target="_blank"> Download Dataset</a>
 
 Step 2: Extract in the root folder of this project.
+
+Step 3: Download the model from following Link:<a href="https://www.dropbox.com/scl/fi/t6l6tonwtom36c4l53ybx/models.zip?rlkey=v80g2ipkkqtkz9ecdraugnkrh&st=9xug3cvo&dl=0" target="_blank"> Download Model</a>
+
+Step 4: Extract in the root folder of this project.
